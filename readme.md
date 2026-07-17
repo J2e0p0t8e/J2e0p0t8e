@@ -1,6 +1,15 @@
+<table>
+<tr>
+<td width="82%">
 <a href="https://ahiffonjephte.me">
   <img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
 </a>
+</td>
+<td width="18%" align="center" valign="middle">
+<img src="./assets/avatar.svg" width="160" height="160" alt="JAYE avatar"/>
+</td>
+</tr>
+</table>
 
 <div align="center">
 

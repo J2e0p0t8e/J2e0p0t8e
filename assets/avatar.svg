@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="av-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#6366F1"/>
+      <stop offset="33%"  stop-color="#8B5CF6"/>
+      <stop offset="66%"  stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <!-- spinning ring mask -->
+    <mask id="av-mask">
+      <circle cx="80" cy="80" r="79" fill="white"/>
+      <circle cx="80" cy="80" r="66" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- outer glow ring (static, subtle) -->
+  <circle cx="80" cy="80" r="79" fill="none" stroke="#6366F1" stroke-opacity="0.15" stroke-width="2"/>
+
+  <!-- spinning gradient arc -->
+  <g>
+    <circle cx="80" cy="80" r="72" fill="none" stroke="url(#av-ring)" stroke-width="6" stroke-dasharray="180 272" stroke-linecap="round" mask="url(#av-mask)"/>
+    <circle cx="80" cy="80" r="72" fill="none" stroke="url(#av-ring)" stroke-width="3" stroke-dasharray="60 392" stroke-linecap="round" opacity="0.5"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 80 80" to="360 80 80" dur="4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- photo placeholder circle (background for when img loads) -->
+  <circle cx="80" cy="80" r="64" fill="#0F0F1A"/>
+
+  <!-- photo -->
+  <clipPath id="av-clip"><circle cx="80" cy="80" r="63"/></clipPath>
+  <image href="https://ik.imagekit.io/valhallaotaku/Me%20/img1_1_.jpg?updatedAt=1781201153899"
+         x="17" y="17" width="126" height="126"
+         preserveAspectRatio="xMidYMid slice"
+         clip-path="url(#av-clip)"/>
+
+  <!-- inner border -->
+  <circle cx="80" cy="80" r="63" fill="none" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1.5"/>
+</svg>
