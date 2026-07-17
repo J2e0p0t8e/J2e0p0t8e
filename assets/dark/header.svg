@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <pattern id="hdr-stripes" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="32" stroke="#1E1E35" stroke-width="3"/>
+    </pattern>
+    <linearGradient id="hdr-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8071E8"/>
+      <stop offset="50%"  stop-color="#B565C5"/>
+      <stop offset="100%" stop-color="#7ECFCF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="#1A1A2E"/>
+  <rect width="1200" height="300" fill="url(#hdr-stripes)" opacity="0.9"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#hdr-accent)"/>
+
+  <!-- Tag pill -->
+  <rect x="60" y="34" width="98" height="26" rx="13" fill="#2A2450"/>
+  <text x="76" y="52" font-family="'Courier New',monospace" font-size="12" fill="#8071E8">&lt;.Jaye&gt;</text>
+
+  <!-- JEPHTE -->
+  <text x="60" y="178" font-family="Georgia,'Times New Roman',serif" font-size="76" font-weight="700" letter-spacing="-1" fill="#8071E8">JEPHTE</text>
+  <!-- AHIFFON -->
+  <text x="60" y="255" font-family="Georgia,'Times New Roman',serif" font-size="76" font-weight="700" letter-spacing="-1" fill="#B565C5">AHIFFON</text>
+
+  <!-- Available badge -->
+  <circle cx="1072" cy="52" r="5" fill="#3DBF82"/>
+  <text x="1085" y="57" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#3DBF82" font-weight="600">Disponible</text>
+
+  <!-- // alias -->
+  <text x="780" y="105" font-family="'Courier New',monospace" font-size="11" fill="#6B6B8A">// alias</text>
+  <text x="780" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="36" font-weight="700" fill="#F0F0F5">JAYE</text>
+
+  <!-- // domaines -->
+  <text x="780" y="172" font-family="'Courier New',monospace" font-size="11" fill="#6B6B8A">// domaines</text>
+  <text x="780" y="196" font-family="'Segoe UI',Arial,sans-serif" font-size="16" fill="#C8C8E0">Dev Web · Cybersécurité</text>
+
+  <!-- // localisation -->
+  <text x="780" y="224" font-family="'Courier New',monospace" font-size="11" fill="#6B6B8A">// localisation</text>
+  <text x="780" y="248" font-family="'Segoe UI',Arial,sans-serif" font-size="16" fill="#C8C8E0">Bénin — Afrique de l'Ouest</text>
+
+  <rect x="0" y="297" width="1200" height="3" fill="url(#hdr-accent)"/>
+</svg>

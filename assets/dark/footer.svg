@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
+  <defs>
+    <linearGradient id="ftr-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8071E8"/>
+      <stop offset="50%"  stop-color="#B565C5"/>
+      <stop offset="100%" stop-color="#7ECFCF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="80" fill="#1A1A2E"/>
+  <rect x="0" y="0"  width="1200" height="3" fill="url(#ftr-accent)"/>
+  <rect x="0" y="77" width="1200" height="3" fill="url(#ftr-accent)"/>
+  <text x="600" y="32" font-family="'Courier New',monospace" font-size="14" font-weight="700" fill="#8071E8" text-anchor="middle" letter-spacing="1">JAYE · JEPHTE AHIFFON · BÉNIN</text>
+  <text x="600" y="54" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#6B6B8A" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile</text>
+</svg>

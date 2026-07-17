@@ -5,7 +5,11 @@
 </td>
 <td valign="middle">
 <a href="https://ahiffonjephte.me">
-<img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/dark/header.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header.svg"/>
+  <img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
+</picture>
 </a>
 </td>
 </tr>
@@ -32,29 +36,41 @@
 
 ## `$ whoami`
 
-<img src="./assets/whoami.svg" width="100%" alt="Profil JAYE — Jephte Ahiffon"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/dark/whoami.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/whoami.svg"/>
+  <img src="./assets/whoami.svg" width="100%" alt="Profil JAYE — Jephte Ahiffon"/>
+</picture>
 
 ---
 
 ## `$ ls ./stack`
 
-<img src="./assets/stack-carousel.svg" width="100%" alt="Stack carousel JAYE"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/dark/stack-carousel.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-carousel.svg"/>
+  <img src="./assets/stack-carousel.svg" width="100%" alt="Stack carousel JAYE"/>
+</picture>
 
 ---
 
 ## `$ cat ./stats`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=F0F0F5&title_color=8071E8&icon_color=B565C5&text_color=1A1A2E&border_radius=12" />
-  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=F0F0F5&title_color=8071E8&text_color=1A1A2E&border_radius=12" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=F0F0F5&title_color=8071E8&icon_color=B565C5&text_color=1A1A2E&border_radius=12#gh-light-mode-only" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=1A1A2E&title_color=8071E8&icon_color=B565C5&text_color=F0F0F5&border_radius=12#gh-dark-mode-only" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=F0F0F5&title_color=8071E8&text_color=1A1A2E&border_radius=12#gh-light-mode-only" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=1A1A2E&title_color=8071E8&text_color=F0F0F5&border_radius=12#gh-dark-mode-only" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&hide_border=true&background=F0F0F5&ring=8071E8&fire=B565C5&currStreakLabel=8071E8&sideLabels=B565C5&dates=6B6B8A&currStreakNum=1A1A2E&sideNums=1A1A2E&border_radius=12" />
+  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&hide_border=true&background=F0F0F5&ring=8071E8&fire=B565C5&currStreakLabel=8071E8&sideLabels=B565C5&dates=6B6B8A&currStreakNum=1A1A2E&sideNums=1A1A2E&border_radius=12#gh-light-mode-only" />
+  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&hide_border=true&background=1A1A2E&ring=8071E8&fire=B565C5&currStreakLabel=8071E8&sideLabels=B565C5&dates=6B6B8A&currStreakNum=F0F0F5&sideNums=F0F0F5&border_radius=12#gh-dark-mode-only" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=onestar&no-frame=true&row=1&column=6&margin-w=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=onestar&no-frame=true&row=1&column=6&margin-w=6#gh-light-mode-only" />
+  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=6#gh-dark-mode-only" />
 </div>
 
 ---
@@ -62,7 +78,8 @@
 ## `$ git log --graph`
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=J2e0p0t8e&bg_color=F0F0F5&color=6B6B8A&line=8071E8&point=B565C5&area=true&area_color=8071E8&hide_border=true&title_color=8071E8&custom_title=Contributions%20—%20J2e0p0t8e&days=true&months=true&radius=8" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=J2e0p0t8e&bg_color=F0F0F5&color=6B6B8A&line=8071E8&point=B565C5&area=true&area_color=8071E8&hide_border=true&title_color=8071E8&custom_title=Contributions%20—%20J2e0p0t8e&days=true&months=true&radius=8#gh-light-mode-only" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=J2e0p0t8e&bg_color=1A1A2E&color=C8C8E0&line=8071E8&point=B565C5&area=true&area_color=8071E8&hide_border=true&title_color=8071E8&custom_title=Contributions%20—%20J2e0p0t8e&days=true&months=true&radius=8#gh-dark-mode-only" width="100%" />
 </div>
 
 <div align="center">
@@ -160,7 +177,11 @@
 
 ## `$ grep -r "axes_de_travail"`
 
-<img src="./assets/axes.svg" width="100%" alt="Axes de travail — Dev Web, Cybersécurité, Scripting, Open Source"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/dark/axes.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/axes.svg"/>
+  <img src="./assets/axes.svg" width="100%" alt="Axes de travail — Dev Web, Cybersécurité, Scripting, Open Source"/>
+</picture>
 
 ---
 
@@ -178,5 +199,9 @@
 ---
 
 <a href="https://ahiffonjephte.me">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/dark/footer.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer.svg"/>
   <img src="./assets/footer.svg" width="100%" alt="footer JAYE"/>
+</picture>
 </a>
