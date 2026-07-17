@@ -56,6 +56,14 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=J2e0p0t8e&bg_color=0F0F1A&color=CBD5E1&line=6366F1&point=8B5CF6&area=true&area_color=6366F1&hide_border=true&title_color=818CF8&custom_title=Contributions%20—%20J2e0p0t8e&days=true&months=true&radius=8" width="100%" />
 </div>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/output/github-contribution-grid-snake.svg"/>
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/output/github-contribution-grid-snake-dark.svg"/>
+  </picture>
+</div>
+
 ---
 
 ## `$ grep -r "axes_de_travail"`
