@@ -1,5 +1,5 @@
 <a href="https://github.com/J2e0p0t8e">
-  <img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
+  <img src="./assets/thekof-github-header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
 </a>
 
 <div align="center">
@@ -21,42 +21,13 @@
 
 ## `$ whoami`
 
-<img src="./assets/whoami.svg" width="100%" alt="Profil Jaye — Jephte Ahiffon"/>
+<img src="./assets/whoami-card.svg" width="100%" alt="Profil JAYE — Jephte Ahiffon"/>
 
 ---
 
-## `$ ls ./stack --dev`
+## `$ ls ./stack`
 
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=0A0E1A)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=0A0E1A)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=0A0E1A)
-
-</div>
-
----
-
-## `$ ls ./stack --sec`
-
-<div align="center">
-
-![Cybersec](https://img.shields.io/badge/Cybersécurité-En_formation-7B61FF?style=for-the-badge&logo=hackthebox&logoColor=white)
-![Réseaux](https://img.shields.io/badge/Réseaux-En_formation-7B61FF?style=for-the-badge&logo=cisco&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_Sec-En_formation-7B61FF?style=for-the-badge&logo=linux&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali_Linux-En_formation-7B61FF?style=for-the-badge&logo=kalilinux&logoColor=white)
-![CTF](https://img.shields.io/badge/CTF_/_Pentest-Apprentissage-FF4D6D?style=for-the-badge&logo=tryhackme&logoColor=white)
-
-</div>
+<img src="./assets/stack-carousel.svg" width="100%" alt="Stack carousel JAYE"/>
 
 ---
 
@@ -71,19 +42,24 @@
   <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&hide_border=true&background=0A0E1A&ring=00FF94&fire=FF4D6D&currStreakLabel=00FF94&sideLabels=7B61FF&dates=9CA3AF&currStreakNum=FFFFFF&sideNums=FFFFFF" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=darkhub&no-frame=true&row=1&column=6&margin-w=6" />
-</div>
+<img src="./assets/github-stats-cards.svg" width="100%" alt="GitHub Stats JAYE"/>
+<img src="./assets/github-insights.svg" width="100%" alt="GitHub Insights JAYE"/>
 
 ---
 
 ## `$ git log --graph`
 
-> ⚡ Lance le workflow **Generate Snake** dans [Actions](https://github.com/J2e0p0t8e/J2e0p0t8e/actions) pour activer cette section.
+<img src="./assets/github-activity.svg" width="100%" alt="Activité GitHub JAYE"/>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/output/github-contribution-grid-snake.svg" />
 </div>
+
+---
+
+## `$ cat ./parcours`
+
+<img src="./assets/journey-cards.svg" width="100%" alt="Parcours JAYE"/>
 
 ---
 
@@ -109,5 +85,5 @@
 ---
 
 <a href="https://github.com/J2e0p0t8e">
-  <img src="./assets/footer.svg" width="100%" alt="footer JAYE"/>
+  <img src="./assets/thekof-footer.svg" width="100%" alt="footer JAYE"/>
 </a>
