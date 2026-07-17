@@ -71,43 +71,77 @@
 <table>
 <tr>
 <td width="33%" align="center">
-<a href="https://vision-plus.tech"><img src="./assets/projects/card-visionplus.svg" width="100%" alt="Vision+"/></a>
+<a href="https://vision-plus.tech">
+<img src="https://ik.imagekit.io/valhallaotaku/image.png" width="100%" style="border-radius:12px" alt="Vision+"/>
+</a>
+<br/><b><a href="https://vision-plus.tech">Vision+</a></b>
+<br/><sub>Communauté tech · Blog automatisé · Fondateur</sub>
 <br/><sub><code>React</code> <code>Node.js</code> <code>Blog</code></sub>
 </td>
 <td width="33%" align="center">
-<a href="https://test-web-3fah.onrender.com"><img src="./assets/projects/card-ifri.svg" width="100%" alt="IFRI Mentor Link"/></a>
+<a href="https://test-web-3fah.onrender.com">
+<img src="https://ik.imagekit.io/valhallaotaku/image_U-ZwB5EMU.png" width="100%" style="border-radius:12px" alt="IFRI Mentor Link"/>
+</a>
+<br/><b><a href="https://test-web-3fah.onrender.com">IFRI Mentor Link</a></b>
+<br/><sub>App de mentorat · Projet intégrateur IFRI · Équipe</sub>
 <br/><sub><code>Backend</code> <code>Frontend</code> <code>Render</code></sub>
 </td>
 <td width="33%" align="center">
-<a href="https://jephtmail.vercel.app"><img src="./assets/projects/card-jayemail.svg" width="100%" alt="Jayemail"/></a>
+<a href="https://jephtmail.vercel.app">
+<img src="https://ik.imagekit.io/valhallaotaku/image_1p5nviiTZ.png" width="100%" style="border-radius:12px" alt="Jayemail"/>
+</a>
+<br/><b><a href="https://jephtmail.vercel.app">Jayemail</a></b>
+<br/><sub>Générateur de mails jetables · API Testmail</sub>
 <br/><sub><code>JavaScript</code> <code>Testmail</code> <code>Vercel</code></sub>
 </td>
 </tr>
 <tr>
 <td width="33%" align="center">
-<a href="https://ui-two-drab.vercel.app"><img src="./assets/projects/card-mailtempo.svg" width="100%" alt="Mailtempo"/></a>
-<br/><sub><code>React</code> <code>SMTP</code> <code>Domaine propre</code></sub>
+<a href="https://ui-two-drab.vercel.app">
+<img src="https://ik.imagekit.io/valhallaotaku/image_R99xc0Ztu.png" width="100%" style="border-radius:12px" alt="Mailtempo"/>
+</a>
+<br/><b><a href="https://ui-two-drab.vercel.app">Mailtempo</a></b>
+<br/><sub>Mail jetable &amp; permanent sur domaine propre · SMTP</sub>
+<br/><sub><code>React</code> <code>SMTP</code> <code>Domaine</code></sub>
 </td>
 <td width="33%" align="center">
-<a href="https://academiagest.tech"><img src="./assets/projects/card-academiagest.svg" width="100%" alt="Academiagest"/></a>
+<a href="https://academiagest.tech">
+<img src="https://ik.imagekit.io/valhallaotaku/image_uyEIfPtxD.png" width="100%" style="border-radius:12px" alt="Academiagest"/>
+</a>
+<br/><b><a href="https://academiagest.tech">Academiagest</a></b>
+<br/><sub>Gestion d'établissement · Inscriptions · Notifs parents</sub>
 <br/><sub><code>Full Stack</code> <code>SMS/Mail</code> <code>SaaS</code></sub>
 </td>
 <td width="33%" align="center">
-<a href="https://vision-quiz.vercel.app"><img src="./assets/projects/card-visionquiz.svg" width="100%" alt="Vision Quiz"/></a>
+<a href="https://vision-quiz.vercel.app">
+<img src="https://ik.imagekit.io/valhallaotaku/image_zAvPOS5tX.png" width="100%" style="border-radius:12px" alt="Vision Quiz"/>
+</a>
+<br/><b><a href="https://vision-quiz.vercel.app">Vision Quiz</a></b>
+<br/><sub>Quiz interactif pour la communauté Vision+</sub>
 <br/><sub><code>React</code> <code>JavaScript</code> <code>Vercel</code></sub>
 </td>
 </tr>
 <tr>
 <td width="33%" align="center">
-<a href="https://moneytrack-mocha.vercel.app"><img src="./assets/projects/card-moneytrack.svg" width="100%" alt="MoneyTrack"/></a>
+<a href="https://moneytrack-mocha.vercel.app">
+<img src="https://ik.imagekit.io/valhallaotaku/image_YjCPzVlOc3.png" width="100%" style="border-radius:12px" alt="MoneyTrack"/>
+</a>
+<br/><b><a href="https://moneytrack-mocha.vercel.app">MoneyTrack</a></b>
+<br/><sub>Gestion de fonds &amp; économies personnelles</sub>
 <br/><sub><code>React</code> <code>Tailwind</code> <code>Vercel</code></sub>
 </td>
 <td width="33%" align="center">
-<a href="https://secureflow-zsjq.onrender.com"><img src="./assets/projects/card-secureflow.svg" width="100%" alt="Secureflow AI"/></a>
+<a href="https://secureflow-zsjq.onrender.com">
+<img src="https://ik.imagekit.io/valhallaotaku/image_LQ0yS2WKI.png" width="100%" style="border-radius:12px" alt="Secureflow AI"/>
+</a>
+<br/><b><a href="https://secureflow-zsjq.onrender.com">Secureflow AI</a></b>
+<br/><sub>Analyse repo · Détection failles · Correctifs IA · Hackathon</sub>
 <br/><sub><code>Python</code> <code>IA</code> <code>GitHub API</code></sub>
 </td>
 <td width="33%" align="center">
-<img src="./assets/projects/card-visionbot.svg" width="100%" alt="Bot Vision+"/>
+<img src="https://ik.imagekit.io/valhallaotaku/image_fjDCFYdlB.png" width="100%" style="border-radius:12px" alt="Bot Vision+"/>
+<br/><b>Bot Vision+</b>
+<br/><sub>Bot Discord · Gestion membres · Musique · Lié au site</sub>
 <br/><sub><code>discord.js</code> <code>Node.js</code> <code>API</code></sub>
 </td>
 </tr>
