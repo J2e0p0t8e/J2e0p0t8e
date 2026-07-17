@@ -72,7 +72,7 @@
   <circle cx="1176" cy="29" r="5" fill="#10B981"/>
   <text x="1166" y="33" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#10B981" text-anchor="end">live</text>
   <text x="832" y="68" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">MoneyTrack</text>
-  <text x="832" y="88" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">moneytrack · vercel.app</text>
+  <text x="832" y="88" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">moneytrack-mocha.vercel.app</text>
   <text x="832" y="116" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">Application de gestion de fonds</text>
   <text x="832" y="134" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">et d'économies personnelles.</text>
   <text x="832" y="152" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">Suivi des dépenses et budgets.</text>

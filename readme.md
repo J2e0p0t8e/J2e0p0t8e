@@ -68,17 +68,17 @@
 
 ## `$ ls ./projects`
 
-<a href="https://vision-plus.tech" target="_blank">
-  <img src="./assets/projects/proj-row1.svg" width="100%" alt="Vision+, IFRI Mentor Link, Jayemail"/>
-</a>
+<img src="./assets/projects/proj-row1.svg" width="100%" alt="Vision+, IFRI Mentor Link, Jayemail"/>
 
-<a href="https://ui-two-drab.vercel.app" target="_blank">
-  <img src="./assets/projects/proj-row2.svg" width="100%" alt="Mailtempo, Academiagest, Vision Quiz"/>
-</a>
+> **[Vision+](https://vision-plus.tech)** · **[IFRI Mentor Link](https://test-web-3fah.onrender.com)** · **[Jayemail](https://jephtmail.vercel.app)**
 
-<a href="https://secureflow-zsjq.onrender.com" target="_blank">
-  <img src="./assets/projects/proj-row3.svg" width="100%" alt="Secureflow, Bot Vision+, MoneyTrack"/>
-</a>
+<img src="./assets/projects/proj-row2.svg" width="100%" alt="Mailtempo, Academiagest, Vision Quiz"/>
+
+> **[Mailtempo](https://ui-two-drab.vercel.app)** · **[Academiagest](https://academiagest.tech)** · **[Vision Quiz](https://vision-quiz.vercel.app)**
+
+<img src="./assets/projects/proj-row3.svg" width="100%" alt="Secureflow, Bot Vision+, MoneyTrack"/>
+
+> **[Secureflow](https://secureflow-zsjq.onrender.com)** · Bot Vision+ · **[MoneyTrack](https://moneytrack-mocha.vercel.app)**
 
 ---
 
