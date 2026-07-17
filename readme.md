@@ -63,8 +63,8 @@
 ## `$ cat ./stats`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=0A0E1A&title_color=00FF94&icon_color=7B61FF&text_color=FFFFFF&ring_color=FF4D6D" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=0A0E1A&title_color=00FF94&text_color=FFFFFF" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=0A0E1A&title_color=00FF94&icon_color=7B61FF&text_color=FFFFFF" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=0A0E1A&title_color=00FF94&text_color=FFFFFF" />
 </div>
 
 <div align="center">
@@ -78,6 +78,8 @@
 ---
 
 ## `$ git log --graph`
+
+> ⚡ Lance le workflow **Generate Snake** dans [Actions](https://github.com/J2e0p0t8e/J2e0p0t8e/actions) pour activer cette section.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/output/github-contribution-grid-snake.svg" />
