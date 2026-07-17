@@ -45,16 +45,16 @@
 ## `$ cat ./stats`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=0F0F1A&title_color=6366F1&icon_color=8B5CF6&text_color=CBD5E1" />
-  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=0F0F1A&title_color=6366F1&text_color=CBD5E1" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api?username=J2e0p0t8e&show_icons=true&hide_border=true&count_private=true&bg_color=F0F0F5&title_color=8071E8&icon_color=B565C5&text_color=1A1A2E&border_radius=12" />
+  <img height="165" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&hide_border=true&bg_color=F0F0F5&title_color=8071E8&text_color=1A1A2E&border_radius=12" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&hide_border=true&background=0F0F1A&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1&sideLabels=8B5CF6&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC" />
+  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&hide_border=true&background=F0F0F5&ring=8071E8&fire=B565C5&currStreakLabel=8071E8&sideLabels=B565C5&dates=6B6B8A&currStreakNum=1A1A2E&sideNums=1A1A2E&border_radius=12" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=onestar&no-frame=true&row=1&column=6&margin-w=6" />
 </div>
 
 ---
@@ -62,7 +62,7 @@
 ## `$ git log --graph`
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=J2e0p0t8e&bg_color=0F0F1A&color=CBD5E1&line=6366F1&point=8B5CF6&area=true&area_color=6366F1&hide_border=true&title_color=818CF8&custom_title=Contributions%20—%20J2e0p0t8e&days=true&months=true&radius=8" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=J2e0p0t8e&bg_color=F0F0F5&color=6B6B8A&line=8071E8&point=B565C5&area=true&area_color=8071E8&hide_border=true&title_color=8071E8&custom_title=Contributions%20—%20J2e0p0t8e&days=true&months=true&radius=8" width="100%" />
 </div>
 
 <div align="center">
