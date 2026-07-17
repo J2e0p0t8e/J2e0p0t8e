@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="80" viewBox="0 0 800 80">
+  <defs>
+    <style>
+      .track { animation: scroll 18s linear infinite; }
+      @keyframes scroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+    </style>
+    <clipPath id="clip">
+      <rect width="800" height="80" rx="12" />
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="80" rx="12" fill="#1a1b27" />
+
+  <!-- fade edges -->
+  <defs>
+    <linearGradient id="fadeL" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%"   stop-color="#1a1b27" stop-opacity="1"/>
+      <stop offset="12%"  stop-color="#1a1b27" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="88%"  stop-color="#1a1b27" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1a1b27" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <!-- double track for seamless loop -->
+    <g class="track">
+      <!-- === SET 1 === -->
+      <!-- HTML5 -->
+      <image href="https://cdn.simpleicons.org/html5/E34F26" x="20"  y="16" width="48" height="48"/>
+      <!-- CSS3 -->
+      <image href="https://cdn.simpleicons.org/css3/1572B6"  x="90"  y="16" width="48" height="48"/>
+      <!-- JavaScript -->
+      <image href="https://cdn.simpleicons.org/javascript/F7DF1E" x="160" y="16" width="48" height="48"/>
+      <!-- Python -->
+      <image href="https://cdn.simpleicons.org/python/3776AB" x="230" y="16" width="48" height="48"/>
+      <!-- Git -->
+      <image href="https://cdn.simpleicons.org/git/F05032"   x="300" y="16" width="48" height="48"/>
+      <!-- GitHub -->
+      <image href="https://cdn.simpleicons.org/github/ffffff" x="370" y="16" width="48" height="48"/>
+      <!-- VS Code -->
+      <image href="https://cdn.simpleicons.org/visualstudiocode/007ACC" x="440" y="16" width="48" height="48"/>
+      <!-- Figma -->
+      <image href="https://cdn.simpleicons.org/figma/F24E1E" x="510" y="16" width="48" height="48"/>
+      <!-- Node.js -->
+      <image href="https://cdn.simpleicons.org/nodedotjs/339933" x="580" y="16" width="48" height="48"/>
+      <!-- Linux -->
+      <image href="https://cdn.simpleicons.org/linux/FCC624"  x="650" y="16" width="48" height="48"/>
+
+      <!-- === SET 2 (identique, décalé de 730px pour la boucle) === -->
+      <image href="https://cdn.simpleicons.org/html5/E34F26" x="750"  y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/css3/1572B6"  x="820"  y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/javascript/F7DF1E" x="890" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/python/3776AB" x="960" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/git/F05032"   x="1030" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/github/ffffff" x="1100" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/visualstudiocode/007ACC" x="1170" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/figma/F24E1E" x="1240" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/nodedotjs/339933" x="1310" y="16" width="48" height="48"/>
+      <image href="https://cdn.simpleicons.org/linux/FCC624"  x="1380" y="16" width="48" height="48"/>
+    </g>
+  </g>
+
+  <!-- fade overlays -->
+  <rect width="800" height="80" rx="12" fill="url(#fadeL)" />
+  <rect width="800" height="80" rx="12" fill="url(#fadeR)" />
+</svg>
