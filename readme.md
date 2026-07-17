@@ -50,7 +50,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/main/marquee-stack.svg" alt="stack carousel" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode,figma&theme=dark" />
 </p>
 
 ---
