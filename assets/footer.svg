@@ -1,18 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
   <defs>
-    <linearGradient id="ftr-bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0F0F1A"/>
-      <stop offset="100%" stop-color="#1A1A2E"/>
-    </linearGradient>
-    <linearGradient id="ftr-accent" x1="0" x2="1">
-      <stop offset="0%" stop-color="#6366F1"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#06B6D4"/>
+    <linearGradient id="ftr-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8071E8"/>
+      <stop offset="50%"  stop-color="#B565C5"/>
+      <stop offset="100%" stop-color="#7ECFCF"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="80" fill="url(#ftr-bg)"/>
+
+  <!-- Background -->
+  <rect width="1200" height="80" fill="#F0F0F5"/>
+
+  <!-- Top accent bar -->
   <rect x="0" y="0"  width="1200" height="3" fill="url(#ftr-accent)"/>
+
+  <!-- Bottom accent bar -->
   <rect x="0" y="77" width="1200" height="3" fill="url(#ftr-accent)"/>
-  <text x="600" y="36" font-family="'DM Mono','Courier New',monospace" font-size="15" font-weight="700" fill="#818CF8" text-anchor="middle">JAYE · JEPHTE AHIFFON · BÉNIN</text>
-  <text x="600" y="58" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#475569" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
+
+  <!-- Line 1: name tag -->
+  <text x="600" y="32" font-family="'Courier New',monospace" font-size="14" font-weight="700"
+        fill="#8071E8" text-anchor="middle" letter-spacing="1">JAYE · JEPHTE AHIFFON · BÉNIN</text>
+
+  <!-- Line 2: tagline -->
+  <text x="600" y="54" font-family="'Segoe UI',Arial,sans-serif" font-size="13"
+        fill="#6B6B8A" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile</text>
 </svg>

@@ -2,114 +2,104 @@
   <title id="sc-title">Stack technique carousel — JAYE</title>
   <desc id="sc-desc">Deux lignes de cartes de stack technique animées.</desc>
   <defs>
-    <linearGradient id="sc-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0F0F1A"/>
-      <stop offset="55%" stop-color="#13131F"/>
-      <stop offset="100%" stop-color="#1A1A2E"/>
-    </linearGradient>
+    <!-- Card gradients -->
     <linearGradient id="sc-cardTop" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1E1E3F"/>
-      <stop offset="100%" stop-color="#16162E"/>
+      <stop offset="0%" stop-color="#FAFAFE"/>
+      <stop offset="100%" stop-color="#F5F3FF"/>
     </linearGradient>
     <linearGradient id="sc-cardBot" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1A1A35"/>
-      <stop offset="100%" stop-color="#130F28"/>
+      <stop offset="0%" stop-color="#FFF8FF"/>
+      <stop offset="100%" stop-color="#FAF0FF"/>
     </linearGradient>
-    <linearGradient id="sc-accentLine" x1="0" x2="1">
-      <stop offset="0%" stop-color="#6366F1"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#06B6D4"/>
+    <!-- Accent bar gradient -->
+    <linearGradient id="sc-accentLine" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%"   stop-color="#8071E8"/>
+      <stop offset="50%"  stop-color="#B565C5"/>
+      <stop offset="100%" stop-color="#7ECFCF"/>
     </linearGradient>
-    <radialGradient id="sc-glowTop" cx="75%" cy="40%" r="50%">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="sc-glowBot" cx="20%" cy="75%" r="50%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="sc-dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#6366F1" opacity="0.10"/>
+    <!-- Diagonal stripe pattern -->
+    <pattern id="sc-stripe" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="28" stroke="#EBEBF0" stroke-width="2"/>
     </pattern>
+    <!-- Clip paths -->
     <clipPath id="sc-topClip"><rect x="160" y="118" width="700" height="76" rx="14"/></clipPath>
     <clipPath id="sc-botClip"><rect x="160" y="222" width="700" height="76" rx="14"/></clipPath>
   </defs>
 
-  <!-- BG -->
-  <rect width="900" height="340" rx="20" fill="url(#sc-bg)"/>
-  <rect width="900" height="340" rx="20" fill="url(#sc-dots)"/>
-  <rect width="900" height="340" rx="20" fill="url(#sc-glowTop)"/>
-  <rect width="900" height="340" rx="20" fill="url(#sc-glowBot)"/>
+  <!-- Background -->
+  <rect width="900" height="340" fill="#F0F0F5"/>
+  <rect width="900" height="340" fill="url(#sc-stripe)"/>
 
-  <!-- top / bottom accent lines -->
-  <rect x="0" y="0"   width="900" height="3" rx="2" fill="url(#sc-accentLine)"/>
-  <rect x="0" y="337" width="900" height="3" rx="2" fill="url(#sc-accentLine)"/>
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#sc-accentLine)"/>
+  <!-- Bottom accent bar -->
+  <rect x="0" y="337" width="900" height="3" fill="url(#sc-accentLine)"/>
 
   <!-- Header -->
-  <text x="36" y="50" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#F8FAFC">Stack Technique</text>
-  <text x="36" y="78" font-family="'DM Mono','Courier New',monospace" font-size="13" fill="#64748B">// Dev Web en haut · Sécurité &amp; Outils en bas</text>
+  <text x="36" y="50" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="700" fill="#1A1A2E">Stack Technique</text>
+  <text x="36" y="78" font-family="'Courier New',monospace" font-size="13" fill="#6B6B8A">// Dev Web en haut · Sécurité &amp; Outils en bas</text>
 
-  <!-- alias badge -->
-  <rect x="776" y="32" width="100" height="28" rx="8" fill="#6366F1" opacity="0.15"/>
-  <rect x="776" y="32" width="100" height="28" rx="8" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.5"/>
-  <text x="826" y="51" font-family="'DM Mono','Courier New',monospace" font-size="13" fill="#818CF8" text-anchor="middle">&lt;.Jaye&gt;</text>
+  <!-- Badge <.Jaye> -->
+  <rect x="776" y="32" width="100" height="28" rx="8" fill="#EDE9FF"/>
+  <rect x="776" y="32" width="100" height="28" rx="8" fill="none" stroke="#8071E8" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="826" y="51" font-family="'Courier New',monospace" font-size="13" fill="#8071E8" text-anchor="middle">&lt;.Jaye&gt;</text>
 
   <!-- Row labels -->
-  <text x="36" y="162" font-family="'DM Mono','Courier New',monospace" font-size="12" fill="#6366F1">dev</text>
-  <text x="36" y="265" font-family="'DM Mono','Courier New',monospace" font-size="12" fill="#8B5CF6">sec</text>
+  <text x="36" y="162" font-family="'Courier New',monospace" font-size="12" fill="#8071E8">dev</text>
+  <text x="36" y="265" font-family="'Courier New',monospace" font-size="12" fill="#B565C5">sec</text>
 
   <!-- Track backgrounds -->
-  <rect x="160" y="118" width="700" height="76" rx="14" fill="#0D0D1F" fill-opacity="0.8" stroke="#6366F1" stroke-opacity="0.20" stroke-width="1"/>
-  <rect x="160" y="222" width="700" height="76" rx="14" fill="#0D0D1F" fill-opacity="0.8" stroke="#8B5CF6" stroke-opacity="0.20" stroke-width="1"/>
+  <rect x="160" y="118" width="700" height="76" rx="14" fill="#FFFFFF" stroke="#DCDCE8" stroke-width="1"/>
+  <rect x="160" y="222" width="700" height="76" rx="14" fill="#FFFFFF" stroke="#DCDCE8" stroke-width="1"/>
 
-  <!-- ── ROW 1: Dev Web (gauche → droite) ── -->
+  <!-- ── ROW 1: Dev Web (right → left) ── -->
   <g clip-path="url(#sc-topClip)">
     <g transform="translate(170 124)"><g>
-      <rect x="0"    y="0" width="118" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="59"   y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">React</text>
-      <rect x="134"  y="0" width="130" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="199"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">JavaScript</text>
-      <rect x="280"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="332"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Python</text>
-      <rect x="400"  y="0" width="120" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="460"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">HTML / CSS</text>
-      <rect x="536"  y="0" width="140" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="606"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Tailwind CSS</text>
-      <rect x="692"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="744"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Node.js</text>
-      <rect x="812"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="860"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Git</text>
-      <rect x="924"  y="0" width="110" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="979"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">GitHub</text>
-      <rect x="1050" y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1102" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">VS Code</text>
-      <rect x="1170" y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1218" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Figma</text>
-      <!-- boucle -->
-      <rect x="1282"  y="0" width="118" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1341" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">React</text>
-      <rect x="1416"  y="0" width="130" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1481" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">JavaScript</text>
-      <rect x="1562"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1614" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Python</text>
-      <rect x="1682"  y="0" width="120" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1742" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">HTML / CSS</text>
-      <rect x="1818"  y="0" width="140" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="1888" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Tailwind CSS</text>
-      <rect x="1974"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="2026" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Node.js</text>
-      <rect x="2094"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="2142" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Git</text>
-      <rect x="2206"  y="0" width="110" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="2261" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">GitHub</text>
-      <rect x="2332"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="2384" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">VS Code</text>
-      <rect x="2452"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#6366F1" stroke-opacity="0.45" stroke-width="1"/><text x="2500" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Figma</text>
+      <rect x="0"    y="0" width="118" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="59"   y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">React</text>
+      <rect x="134"  y="0" width="130" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="199"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">JavaScript</text>
+      <rect x="280"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="332"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Python</text>
+      <rect x="400"  y="0" width="120" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="460"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">HTML/CSS</text>
+      <rect x="536"  y="0" width="140" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="606"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Tailwind CSS</text>
+      <rect x="692"  y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="744"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Node.js</text>
+      <rect x="812"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="860"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Git</text>
+      <rect x="924"  y="0" width="110" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="979"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">GitHub</text>
+      <rect x="1050" y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1102" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">VS Code</text>
+      <rect x="1170" y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1218" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Figma</text>
+      <!-- loop copy -->
+      <rect x="1282" y="0" width="118" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1341" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">React</text>
+      <rect x="1416" y="0" width="130" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1481" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">JavaScript</text>
+      <rect x="1562" y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1614" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Python</text>
+      <rect x="1682" y="0" width="120" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1742" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">HTML/CSS</text>
+      <rect x="1818" y="0" width="140" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="1888" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Tailwind CSS</text>
+      <rect x="1974" y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="2026" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Node.js</text>
+      <rect x="2094" y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="2142" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Git</text>
+      <rect x="2206" y="0" width="110" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="2261" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">GitHub</text>
+      <rect x="2332" y="0" width="104" height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="2384" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">VS Code</text>
+      <rect x="2452" y="0" width="96"  height="64" rx="12" fill="url(#sc-cardTop)" stroke="#8071E8" stroke-opacity="0.45" stroke-width="1"/><text x="2500" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Figma</text>
       <animateTransform attributeName="transform" type="translate" from="0 0" to="-1282 0" dur="26s" repeatCount="indefinite"/>
     </g></g>
   </g>
 
-  <!-- ── ROW 2: Sécu & Outils (droite → gauche) ── -->
+  <!-- ── ROW 2: Sécu & Outils (left → right) ── -->
   <g clip-path="url(#sc-botClip)">
     <g transform="translate(170 228)"><g>
-      <rect x="0"    y="0" width="152" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="76"   y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Cybersécurité</text>
-      <rect x="168"  y="0" width="110" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="223"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Réseaux</text>
-      <rect x="294"  y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="350"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Kali Linux</text>
-      <rect x="422"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="470"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Linux</text>
-      <rect x="534"  y="0" width="80"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="574"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">CTF</text>
-      <rect x="630"  y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="684"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Scripting</text>
-      <rect x="754"  y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="808"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Wireshark</text>
-      <rect x="878"  y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="934"  y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Nmap / CLI</text>
-      <!-- boucle -->
-      <rect x="1006"  y="0" width="152" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1082" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Cybersécurité</text>
-      <rect x="1174"  y="0" width="110" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1229" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Réseaux</text>
-      <rect x="1300"  y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1356" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Kali Linux</text>
-      <rect x="1428"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1476" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Linux</text>
-      <rect x="1540"  y="0" width="80"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1580" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">CTF</text>
-      <rect x="1636"  y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1690" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Scripting</text>
-      <rect x="1760"  y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1814" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Wireshark</text>
-      <rect x="1884"  y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1"/><text x="1940" y="41" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="600" fill="#F8FAFC">Nmap / CLI</text>
+      <rect x="0"    y="0" width="152" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="76"   y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Cybersécurité</text>
+      <rect x="168"  y="0" width="110" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="223"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Réseaux</text>
+      <rect x="294"  y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="350"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Kali Linux</text>
+      <rect x="422"  y="0" width="96"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="470"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Linux</text>
+      <rect x="534"  y="0" width="80"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="574"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">CTF</text>
+      <rect x="630"  y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="684"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Scripting</text>
+      <rect x="754"  y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="808"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Wireshark</text>
+      <rect x="878"  y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="934"  y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Nmap/CLI</text>
+      <!-- loop copy -->
+      <rect x="1006" y="0" width="152" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1082" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Cybersécurité</text>
+      <rect x="1174" y="0" width="110" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1229" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Réseaux</text>
+      <rect x="1300" y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1356" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Kali Linux</text>
+      <rect x="1428" y="0" width="96"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1476" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Linux</text>
+      <rect x="1540" y="0" width="80"  height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1580" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">CTF</text>
+      <rect x="1636" y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1690" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Scripting</text>
+      <rect x="1760" y="0" width="108" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1814" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Wireshark</text>
+      <rect x="1884" y="0" width="112" height="64" rx="12" fill="url(#sc-cardBot)" stroke="#B565C5" stroke-opacity="0.45" stroke-width="1"/><text x="1940" y="41" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="600" fill="#1A1A2E">Nmap/CLI</text>
       <animateTransform attributeName="transform" type="translate" from="-1006 0" to="0 0" dur="26s" repeatCount="indefinite"/>
     </g></g>
   </g>

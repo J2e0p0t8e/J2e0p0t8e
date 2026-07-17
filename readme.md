@@ -13,18 +13,18 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ahiffonjephte.me-6366F1?style=for-the-badge&logo=vercel&logoColor=white)](https://ahiffonjephte.me)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahiffonjephte.me-8071E8?style=for-the-badge&logo=vercel&logoColor=white)](https://ahiffonjephte.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AHIFFON_Jephte-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jephté-ahiffon-6723353a6)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B229_01_60_69_80_85-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/2290160698085)
 [![Gmail](https://img.shields.io/badge/Gmail-ahiffent@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahiffent@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-J2e0p0t8e-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/J2e0p0t8e)
+[![GitHub](https://img.shields.io/badge/GitHub-J2e0p0t8e-B565C5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/J2e0p0t8e)
 
 <br/>
 
-![Statut](https://img.shields.io/badge/Statut-Disponible_●-10B981?style=flat-square&labelColor=0F0F1A)
-![Remote](https://img.shields.io/badge/Remote-Oui-6366F1?style=flat-square&labelColor=0F0F1A)
-![Visitors](https://komarev.com/ghpvc/?username=J2e0p0t8e&label=Visites&color=6366F1&style=flat-square&labelColor=0F0F1A)
-![Followers](https://img.shields.io/github/followers/J2e0p0t8e?label=Followers&style=flat-square&color=8B5CF6&labelColor=0F0F1A)
+![Statut](https://img.shields.io/badge/Statut-Disponible_●-34C48A?style=flat-square&labelColor=F0F0F5&color=34C48A)
+![Remote](https://img.shields.io/badge/Remote-Oui-8071E8?style=flat-square&labelColor=F0F0F5)
+![Visitors](https://komarev.com/ghpvc/?username=J2e0p0t8e&label=Visites&color=8071E8&style=flat-square&labelColor=F0F0F5)
+![Followers](https://img.shields.io/github/followers/J2e0p0t8e?label=Followers&style=flat-square&color=B565C5&labelColor=F0F0F5)
 
 </div>
 
