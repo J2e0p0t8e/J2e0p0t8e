@@ -1,9 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60">
-  <rect width="900" height="60" fill="#0D0D0D"/>
-  <rect x="0" y="0" width="900" height="4" fill="#C8F135"/>
-  <rect x="0" y="0" width="4" height="60" fill="#C8F135"/>
-  <rect x="896" y="0" width="4" height="60" fill="#C8F135"/>
-
-  <text x="450" y="26" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#C8F135" text-anchor="middle">JAYE · JEPHTE AHIFFON · BENIN</text>
-  <text x="450" y="46" font-family="'Courier New', monospace" font-size="10" fill="#444444" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
+  <rect width="900" height="60" fill="#0A0E1A"/>
+  <rect x="0" y="0" width="300" height="4" fill="#00FF94"/>
+  <rect x="300" y="0" width="300" height="4" fill="#7B61FF"/>
+  <rect x="600" y="0" width="300" height="4" fill="#FF4D6D"/>
+  <rect x="0" y="56" width="900" height="4" fill="#00FF94"/>
+  <rect x="0" y="0" width="4" height="60" fill="#00FF94"/>
+  <rect x="896" y="0" width="4" height="60" fill="#00FF94"/>
+  <text x="450" y="24" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#00FF94" text-anchor="middle">JAYE · JEPHTE AHIFFON · BÉNIN</text>
+  <text x="450" y="44" font-family="'Courier New', monospace" font-size="10" fill="#374151" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
 </svg>
