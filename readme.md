@@ -1,105 +1,81 @@
-<!-- capsule header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:1F6FEB&height=160&section=header&text=Salut,%20moi%20c'est%20Jephte%20!&fontColor=ffffff&fontSize=36&fontAlignY=55&animation=fadeIn" width="100%" />
+<a href="https://github.com/J2e0p0t8e">
+  <img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
+</a>
 
-<!-- typing SVG -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=D%C3%A9veloppeur+Web+Passionn%C3%A9;Toujours+en+train+d'apprendre;Open+Source+%26+Innovation;Bas%C3%A9+au+B%C3%A9nin+%F0%9F%87%A7%F0%9F%87%AF" alt="Typing SVG" />
-</p>
+<div align="center">
 
-<!-- badges -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=J2e0p0t8e&label=Visiteurs&color=58A6FF&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/J2e0p0t8e?label=Followers&style=for-the-badge&color=58A6FF" />
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-J2e0p0t8e-0D0D0D?style=for-the-badge&logo=github&logoColor=C8F135)](https://github.com/J2e0p0t8e)
+[![Bénin](https://img.shields.io/badge/Bénin-Afrique_de_l'Ouest-C8F135?style=for-the-badge&logo=googlemaps&logoColor=0D0D0D)]()
+[![Email](https://img.shields.io/badge/Gmail-contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@github.com)
 
----
+<br/>
 
-<h3>
-  <img src="https://cdn.simpleicons.org/githubsponsors/58A6FF" width="20" />
-  &nbsp;À propos de moi
-</h3>
+![Statut](https://img.shields.io/badge/Statut-Disponible_●-C8F135?style=flat-square&logo=circle&logoColor=0D0D0D)
+![Remote](https://img.shields.io/badge/Remote-Oui-0D0D0D?style=flat-square&logo=internetcomputer&logoColor=C8F135)
+![Visitors](https://komarev.com/ghpvc/?username=J2e0p0t8e&label=Visites&color=C8F135&style=flat-square&labelColor=0D0D0D)
+![Followers](https://img.shields.io/github/followers/J2e0p0t8e?label=Followers&style=flat-square&color=C8F135&labelColor=0D0D0D)
 
-<table>
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/codeberg/58A6FF" width="18" /></td>
-    <td>Étudiant en développement informatique</td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/leaflet/34d399" width="18" /></td>
-    <td>Basé au <strong>Bénin</strong></td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/lightning/f59e0b" width="18" /></td>
-    <td>Passionné par le web, les nouvelles technologies et l'innovation</td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/opensourcehardware/a855f7" width="18" /></td>
-    <td>Fan d'open source et de projets communautaires</td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.simpleicons.org/maildotru/e11d48" width="18" /></td>
-    <td>Comment me joindre : <strong>via GitHub</strong></td>
-  </tr>
-</table>
+</div>
 
 ---
 
-<h3>
-  <img src="https://cdn.simpleicons.org/gnubash/a855f7" width="20" />
-  &nbsp;Ma stack
-</h3>
+## `$ whoami`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode,figma&theme=dark" />
-</p>
+<img src="./assets/whoami.svg" width="100%" alt="Profil Jaye — Jephte Ahiffon"/>
 
 ---
 
-<h3>
-  <img src="https://cdn.simpleicons.org/githubactions/58A6FF" width="20" />
-  &nbsp;Stats GitHub
-</h3>
+## `$ ls ./stack`
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=J2e0p0t8e&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
+<img src="./assets/stack-carousel.svg" width="100%" alt="Stack carousel Jaye"/>
 
 ---
 
-<h3>
-  <img src="https://cdn.simpleicons.org/github/58A6FF" width="20" />
-  &nbsp;Mon activité
-</h3>
+## `$ cat ./stats`
 
-<p align="center">
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=J2e0p0t8e&show_icons=true&theme=chartreuse-dark&hide_border=true&count_private=true&bg_color=0D0D0D&title_color=C8F135&icon_color=C8F135&text_color=FFFFFF" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J2e0p0t8e&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D0D0D&title_color=C8F135&text_color=FFFFFF" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=J2e0p0t8e&theme=dark&hide_border=true&background=0D0D0D&ring=C8F135&fire=C8F135&currStreakLabel=C8F135" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=J2e0p0t8e&theme=darkhub&no-frame=true&row=1&column=6&margin-w=6" />
+</div>
+
+---
+
+## `$ git log --graph`
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/J2e0p0t8e/J2e0p0t8e/output/github-contribution-grid-snake.svg" />
-</p>
+</div>
 
 ---
 
-<h3>
-  <img src="https://cdn.simpleicons.org/linkedin/0077B5" width="20" />
-  &nbsp;Me retrouver ailleurs
-</h3>
+## `$ grep -r "axes_de_travail"`
 
-<p align="center">
-  <a href="https://github.com/J2e0p0t8e">
-    <img src="https://img.shields.io/badge/GitHub-J2e0p0t8e-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+- Développement web front et back — interfaces rapides, propres, accessibles
+- Automatisation et scripting — Python, CLI, workflows
+- Open source — contributions, projets communautaires
+- Toujours en train d'apprendre quelque chose de nouveau
 
-<!-- capsule footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,100:58A6FF&height=110&section=footer" width="100%" />
+---
 
-<p align="center">
-  <sub>Merci d'être passé sur mon profil — n'hésite pas à laisser une étoile sur mes projets !</sub>
-</p>
+## `$ curl contact`
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-J2e0p0t8e-0D0D0D?style=for-the-badge&logo=github&logoColor=C8F135)](https://github.com/J2e0p0t8e)
+[![Email](https://img.shields.io/badge/Email-Écrire-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@github.com)
+
+</div>
+
+---
+
+<a href="https://github.com/J2e0p0t8e">
+  <img src="./assets/footer.svg" width="100%" alt="footer JAYE"/>
+</a>

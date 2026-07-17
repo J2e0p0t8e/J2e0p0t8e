@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+
+  <!-- BG -->
+  <rect width="900" height="220" fill="#0D0D0D"/>
+
+  <!-- outer border brutal -->
+  <rect x="2" y="2" width="896" height="216" fill="none" stroke="#C8F135" stroke-width="2"/>
+  <!-- inner shadow offset -->
+  <rect x="7" y="7" width="896" height="216" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- left accent bar -->
+  <rect x="2" y="2" width="6" height="216" fill="#C8F135"/>
+
+  <!-- section label -->
+  <rect x="28" y="18" width="130" height="20" fill="#C8F135"/>
+  <text x="34" y="32" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#0D0D0D">$ whoami</text>
+
+  <!-- divider -->
+  <line x1="28" y1="48" x2="872" y2="48" stroke="#222" stroke-width="1"/>
+
+  <!-- col 1: role -->
+  <text x="28"  y="72"  font-family="'Courier New', monospace" font-size="10" fill="#666">ROLE</text>
+  <text x="28"  y="90"  font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF">Développeur Web</text>
+  <text x="28"  y="108" font-family="'Courier New', monospace" font-size="13" fill="#C8F135">Full Stack</text>
+
+  <!-- col 2: focus -->
+  <text x="240" y="72"  font-family="'Courier New', monospace" font-size="10" fill="#666">FOCUS</text>
+  <text x="240" y="90"  font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF">Web · Mobile · IA</text>
+  <text x="240" y="108" font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF">Open Source</text>
+
+  <!-- col 3: langues -->
+  <text x="460" y="72"  font-family="'Courier New', monospace" font-size="10" fill="#666">LANGUES</text>
+  <text x="460" y="90"  font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF">Français · Anglais</text>
+
+  <!-- col 4: dispo -->
+  <text x="680" y="72"  font-family="'Courier New', monospace" font-size="10" fill="#666">REMOTE</text>
+  <rect x="680" y="79" width="90" height="20" fill="#C8F135"/>
+  <text x="686" y="93"  font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#0D0D0D">DISPONIBLE</text>
+
+  <!-- divider 2 -->
+  <line x1="28" y1="128" x2="872" y2="128" stroke="#222" stroke-width="1"/>
+
+  <!-- about text -->
+  <text x="28" y="150" font-family="'Courier New', monospace" font-size="13" fill="#AAAAAA">Étudiant en développement informatique basé au Bénin.</text>
+  <text x="28" y="170" font-family="'Courier New', monospace" font-size="13" fill="#AAAAAA">Passionné par l'innovation, l'open source et la création de produits</text>
+  <text x="28" y="190" font-family="'Courier New', monospace" font-size="13" fill="#AAAAAA">qui ont un impact concret. Toujours prêt pour de nouveaux défis.</text>
+</svg>
