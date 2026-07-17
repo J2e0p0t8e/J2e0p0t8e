@@ -160,11 +160,7 @@
 
 ## `$ grep -r "axes_de_travail"`
 
-- Développement web front & back — interfaces rapides, propres, accessibles
-- Automatisation & scripting — Python, CLI, workflows
-- Sécurité informatique — apprentissage des réseaux, systèmes, CTF
-- Open source — contributions, projets communautaires
-- Toujours en train d'apprendre quelque chose de nouveau
+<img src="./assets/axes.svg" width="100%" alt="Axes de travail — Dev Web, Cybersécurité, Scripting, Open Source"/>
 
 ---
 
