@@ -1,11 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72">
-  <rect width="900" height="72" fill="#0A0E1A"/>
-  <rect x="0" y="0" width="300" height="5" fill="#00FF94"/>
-  <rect x="300" y="0" width="300" height="5" fill="#7B61FF"/>
-  <rect x="600" y="0" width="300" height="5" fill="#FF4D6D"/>
-  <rect x="0" y="67" width="900" height="5" fill="#00FF94"/>
-  <rect x="0" y="0" width="5" height="72" fill="#00FF94"/>
-  <rect x="895" y="0" width="5" height="72" fill="#00FF94"/>
-  <text x="450" y="30" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#00FF94" text-anchor="middle">JAYE · JEPHTE AHIFFON · BÉNIN</text>
-  <text x="450" y="52" font-family="'Courier New', monospace" font-size="12" fill="#4B5563" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0F0F1A"/>
+      <stop offset="100%" stop-color="#1A1A2E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="80" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
+  <rect x="0" y="77" width="1200" height="3" fill="url(#accent)"/>
+  <text x="600" y="36" font-family="'DM Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#818CF8" text-anchor="middle">JAYE · JEPHTE AHIFFON · BÉNIN</text>
+  <text x="600" y="58" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="13" fill="#475569" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
 </svg>
