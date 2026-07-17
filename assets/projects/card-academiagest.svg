@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="260" viewBox="0 0 380 260" role="img">
+  <title>Card — Academiagest</title>
+  <defs>
+    <linearGradient id="ag-accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <clipPath id="ag-clip">
+      <rect x="0" y="0" width="380" height="260" rx="16"/>
+    </clipPath>
+    <clipPath id="ag-imgclip">
+      <rect x="8" y="12" width="364" height="196" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="380" height="260" rx="16" fill="#0F0F1A" stroke="#1E293B" stroke-width="1"/>
+
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="url(#ag-accent)"/>
+
+  <g clip-path="url(#ag-imgclip)">
+    <g transform="rotate(-2, 190, 110)">
+      <image href="https://ik.imagekit.io/valhallaotaku/image_uyEIfPtxD.png" x="8" y="12" width="364" height="196" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+  </g>
+
+  <rect x="0" y="216" width="380" height="44" fill="#0F0F1A"/>
+  <line x1="0" y1="216" x2="380" y2="216" stroke="#1E293B" stroke-width="1"/>
+  <text x="16" y="236" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#F8FAFC">Academiagest</text>
+  <text x="16" y="252" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#475569">academiagest.tech</text>
+</svg>
