@@ -1,12 +1,12 @@
 <table>
 <tr>
-<td width="82%">
-<a href="https://ahiffonjephte.me">
-  <img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
-</a>
+<td width="160" align="center" valign="middle">
+<img src="./assets/avatar.svg" width="160" height="160" alt="JAYE"/>
 </td>
-<td width="18%" align="center" valign="middle">
-<img src="./assets/avatar.svg" width="160" height="160" alt="JAYE avatar"/>
+<td valign="middle">
+<a href="https://ahiffonjephte.me">
+<img src="./assets/header.svg" width="100%" alt="JAYE — Jephte Ahiffon"/>
+</a>
 </td>
 </tr>
 </table>
