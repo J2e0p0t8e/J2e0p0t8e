@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img">
+  <title>Projets — Mailtempo, Academiagest, Vision Quiz</title>
+  <defs>
+    <linearGradient id="pr2-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F0F1A"/>
+      <stop offset="100%" stop-color="#1A1A2E"/>
+    </linearGradient>
+    <linearGradient id="pr2-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16162E"/>
+      <stop offset="100%" stop-color="#0F0F1A"/>
+    </linearGradient>
+    <linearGradient id="pr2-a1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="pr2-a2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="pr2-a3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#pr2-bg)"/>
+
+  <!-- ── CARD 1 : Mailtempo ── -->
+  <rect x="0"   y="0" width="388" height="220" rx="18" fill="url(#pr2-card)" stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="0"   y="0" width="388" height="4"   rx="2"  fill="url(#pr2-a1)"/>
+  <rect x="20"  y="18" width="110" height="22" rx="6" fill="#8B5CF6" fill-opacity="0.15"/>
+  <text x="75"  y="33" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#A78BFA" text-anchor="middle">Tool · Mail Pro</text>
+  <circle cx="352" cy="29" r="5" fill="#10B981"/>
+  <text x="342" y="33" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#10B981" text-anchor="end">live</text>
+  <text x="20" y="68" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">Mailtempo</text>
+  <text x="20" y="88" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">ui-two-drab.vercel.app</text>
+  <text x="20" y="116" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">Mail jetable ET permanent sur</text>
+  <text x="20" y="134" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">domaine propre. Réception et</text>
+  <text x="20" y="152" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">envoi d'emails intégrés.</text>
+  <rect x="20"  y="172" width="90"  height="22" rx="6" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="65"  y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#A78BFA" text-anchor="middle">Domaine</text>
+  <rect x="120" y="172" width="70"  height="22" rx="6" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="155" y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#A78BFA" text-anchor="middle">SMTP</text>
+  <rect x="200" y="172" width="70"  height="22" rx="6" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="235" y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#A78BFA" text-anchor="middle">React</text>
+
+  <!-- ── CARD 2 : Academiagest ── -->
+  <rect x="406" y="0" width="388" height="220" rx="18" fill="url(#pr2-card)" stroke="#6366F1" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="406" y="0" width="388" height="4"   rx="2"  fill="url(#pr2-a2)"/>
+  <rect x="426" y="18" width="120" height="22" rx="6" fill="#6366F1" fill-opacity="0.15"/>
+  <text x="486" y="33" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#818CF8" text-anchor="middle">SaaS · Éducation</text>
+  <circle cx="770" cy="29" r="5" fill="#10B981"/>
+  <text x="760" y="33" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#10B981" text-anchor="end">live</text>
+  <text x="426" y="68" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">Academiagest</text>
+  <text x="426" y="88" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">academiagest.tech</text>
+  <text x="426" y="116" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">Gestion complète d'établissement :</text>
+  <text x="426" y="134" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">inscriptions, connexions, messages</text>
+  <text x="426" y="152" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">automatiques aux parents.</text>
+  <rect x="426" y="172" width="80"  height="22" rx="6" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="466" y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#818CF8" text-anchor="middle">Full Stack</text>
+  <rect x="516" y="172" width="70"  height="22" rx="6" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="551" y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#818CF8" text-anchor="middle">SMS/Mail</text>
+  <rect x="596" y="172" width="60"  height="22" rx="6" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="626" y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#818CF8" text-anchor="middle">SaaS</text>
+
+  <!-- ── CARD 3 : Vision Quiz ── -->
+  <rect x="812" y="0" width="388" height="220" rx="18" fill="url(#pr2-card)" stroke="#06B6D4" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="812" y="0" width="388" height="4"   rx="2"  fill="url(#pr2-a3)"/>
+  <rect x="832" y="18" width="100" height="22" rx="6" fill="#06B6D4" fill-opacity="0.12"/>
+  <text x="882" y="33" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#67E8F9" text-anchor="middle">App · Quiz</text>
+  <circle cx="1176" cy="29" r="5" fill="#10B981"/>
+  <text x="1166" y="33" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#10B981" text-anchor="end">live</text>
+  <text x="832" y="68" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">Vision Quiz</text>
+  <text x="832" y="88" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">vision-quiz · vercel.app</text>
+  <text x="832" y="116" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">Site de quiz interactif pour</text>
+  <text x="832" y="134" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">la communauté Vision+.</text>
+  <text x="832" y="152" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#94A3B8">Questions tech, culture &amp; fun.</text>
+  <rect x="832"  y="172" width="100" height="22" rx="6" fill="#06B6D4" fill-opacity="0.10" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="882"  y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#67E8F9" text-anchor="middle">JavaScript</text>
+  <rect x="942"  y="172" width="60"  height="22" rx="6" fill="#06B6D4" fill-opacity="0.10" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="972"  y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#67E8F9" text-anchor="middle">React</text>
+  <rect x="1012" y="172" width="70"  height="22" rx="6" fill="#06B6D4" fill-opacity="0.10" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="1047" y="187" font-family="'DM Mono','Courier New',monospace" font-size="10" fill="#67E8F9" text-anchor="middle">Vercel</text>
+</svg>

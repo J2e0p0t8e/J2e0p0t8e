@@ -66,6 +66,22 @@
 
 ---
 
+## `$ ls ./projects`
+
+<a href="https://vision-plus.tech" target="_blank">
+  <img src="./assets/projects/proj-row1.svg" width="100%" alt="Vision+, IFRI Mentor Link, Jayemail"/>
+</a>
+
+<a href="https://ui-two-drab.vercel.app" target="_blank">
+  <img src="./assets/projects/proj-row2.svg" width="100%" alt="Mailtempo, Academiagest, Vision Quiz"/>
+</a>
+
+<a href="https://secureflow-zsjq.onrender.com" target="_blank">
+  <img src="./assets/projects/proj-row3.svg" width="100%" alt="Secureflow, Bot Vision+, MoneyTrack"/>
+</a>
+
+---
+
 ## `$ grep -r "axes_de_travail"`
 
 - Développement web front & back — interfaces rapides, propres, accessibles
