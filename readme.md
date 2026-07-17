@@ -27,7 +27,22 @@
 
 ## `$ ls ./stack`
 
-<img src="./assets/stack-carousel.svg" width="100%" alt="Stack carousel Jaye"/>
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-0D0D0D?style=for-the-badge&logo=html5&logoColor=C8F135)
+![CSS3](https://img.shields.io/badge/CSS3-0D0D0D?style=for-the-badge&logo=css3&logoColor=C8F135)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=C8F135)
+![Python](https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=C8F135)
+![React](https://img.shields.io/badge/React-0D0D0D?style=for-the-badge&logo=react&logoColor=C8F135)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-0D0D0D?style=for-the-badge&logo=tailwindcss&logoColor=C8F135)
+![Node.js](https://img.shields.io/badge/Node.js-0D0D0D?style=for-the-badge&logo=nodedotjs&logoColor=C8F135)
+![Git](https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&logo=git&logoColor=C8F135)
+![GitHub](https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=C8F135)
+![VS Code](https://img.shields.io/badge/VS_Code-0D0D0D?style=for-the-badge&logo=visualstudiocode&logoColor=C8F135)
+![Figma](https://img.shields.io/badge/Figma-0D0D0D?style=for-the-badge&logo=figma&logoColor=C8F135)
+![Linux](https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=C8F135)
+
+</div>
 
 ---
 
