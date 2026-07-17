@@ -1,46 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
 
-  <rect width="900" height="240" fill="#0A0E1A"/>
-  <rect x="2" y="2" width="896" height="236" fill="none" stroke="#00FF94" stroke-width="2"/>
-  <rect x="7" y="7" width="896" height="236" fill="none" stroke="#7B61FF" stroke-width="1" stroke-dasharray="4 4"/>
-  <rect x="2" y="2" width="6" height="236" fill="#00FF94"/>
+  <rect width="900" height="280" fill="#0A0E1A"/>
+  <rect x="2" y="2" width="896" height="276" fill="none" stroke="#00FF94" stroke-width="2"/>
+  <rect x="7" y="7" width="896" height="276" fill="none" stroke="#7B61FF" stroke-width="1" stroke-dasharray="4 4"/>
+  <rect x="2" y="2" width="7" height="276" fill="#00FF94"/>
 
   <!-- label -->
-  <rect x="28" y="16" width="130" height="20" fill="#00FF94"/>
-  <text x="34" y="30" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#0A0E1A">$ whoami</text>
+  <rect x="28" y="16" width="150" height="26" fill="#00FF94"/>
+  <text x="36" y="34" font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#0A0E1A">$ whoami</text>
 
   <!-- divider -->
-  <line x1="28" y1="50" x2="872" y2="50" stroke="#1F2937" stroke-width="1"/>
+  <line x1="28" y1="56" x2="872" y2="56" stroke="#1F2937" stroke-width="1"/>
 
   <!-- col 1 -->
-  <text x="28"  y="75"  font-family="'Courier New', monospace" font-size="10" fill="#4B5563">RÔLE</text>
-  <text x="28"  y="95"  font-family="'Courier New', monospace" font-size="15" font-weight="700" fill="#FFFFFF">Développeur Web</text>
-  <text x="28"  y="113" font-family="'Courier New', monospace" font-size="13" fill="#00FF94">Full Stack</text>
+  <text x="28"  y="82"  font-family="'Courier New', monospace" font-size="12" fill="#4B5563">RÔLE</text>
+  <text x="28"  y="106" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#FFFFFF">Développeur Web</text>
+  <text x="28"  y="128" font-family="'Courier New', monospace" font-size="16" fill="#00FF94">Full Stack</text>
 
   <!-- col 2 -->
-  <text x="240" y="75"  font-family="'Courier New', monospace" font-size="10" fill="#4B5563">FORMATION</text>
-  <text x="240" y="95"  font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF">Étudiant en</text>
-  <text x="240" y="113" font-family="'Courier New', monospace" font-size="13" fill="#7B61FF">Sécurité Informatique</text>
+  <text x="240" y="82"  font-family="'Courier New', monospace" font-size="12" fill="#4B5563">FORMATION</text>
+  <text x="240" y="106" font-family="'Courier New', monospace" font-size="16" fill="#FFFFFF">Étudiant en</text>
+  <text x="240" y="128" font-family="'Courier New', monospace" font-size="16" fill="#7B61FF">Sécurité Informatique</text>
 
   <!-- col 3 -->
-  <text x="480" y="75"  font-family="'Courier New', monospace" font-size="10" fill="#4B5563">FOCUS</text>
-  <text x="480" y="95"  font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF">Web · Scripting</text>
-  <text x="480" y="113" font-family="'Courier New', monospace" font-size="13" fill="#FFFFFF">Cyber · Open Source</text>
+  <text x="490" y="82"  font-family="'Courier New', monospace" font-size="12" fill="#4B5563">FOCUS</text>
+  <text x="490" y="106" font-family="'Courier New', monospace" font-size="16" fill="#FFFFFF">Web · Scripting</text>
+  <text x="490" y="128" font-family="'Courier New', monospace" font-size="16" fill="#FFFFFF">Cyber · Open Source</text>
 
   <!-- col 4 -->
-  <text x="700" y="75"  font-family="'Courier New', monospace" font-size="10" fill="#4B5563">REMOTE</text>
-  <rect x="700" y="82" width="110" height="22" fill="#00FF94"/>
-  <text x="706" y="97"  font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#0A0E1A">DISPONIBLE ●</text>
+  <text x="700" y="82"  font-family="'Courier New', monospace" font-size="12" fill="#4B5563">REMOTE</text>
+  <rect x="700" y="90" width="150" height="28" fill="#00FF94"/>
+  <text x="708" y="109" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#0A0E1A">DISPONIBLE ●</text>
 
   <!-- divider 2 -->
-  <line x1="28" y1="135" x2="872" y2="135" stroke="#1F2937" stroke-width="1"/>
+  <line x1="28" y1="152" x2="872" y2="152" stroke="#1F2937" stroke-width="1"/>
 
   <!-- about -->
-  <text x="28" y="158" font-family="'Courier New', monospace" font-size="13" fill="#9CA3AF">Étudiant en sécurité informatique et développeur web basé au Bénin.</text>
-  <text x="28" y="178" font-family="'Courier New', monospace" font-size="13" fill="#9CA3AF">Passionné par l'innovation, les réseaux, la cybersécurité et les interfaces</text>
-  <text x="28" y="198" font-family="'Courier New', monospace" font-size="13" fill="#9CA3AF">qui ont un impact concret. Toujours prêt pour de nouveaux défis.</text>
+  <text x="28" y="178" font-family="'Courier New', monospace" font-size="15" fill="#9CA3AF">Étudiant en sécurité informatique et développeur web basé au Bénin.</text>
+  <text x="28" y="202" font-family="'Courier New', monospace" font-size="15" fill="#9CA3AF">Passionné par l'innovation, les réseaux, la cybersécurité et les interfaces</text>
+  <text x="28" y="226" font-family="'Courier New', monospace" font-size="15" fill="#9CA3AF">qui ont un impact concret. Toujours prêt pour de nouveaux défis.</text>
 
   <!-- bottom tag -->
-  <rect x="28" y="218" width="160" height="16" fill="#7B61FF" opacity="0.2"/>
-  <text x="34" y="230" font-family="'Courier New', monospace" font-size="10" fill="#7B61FF">[ DEV · SEC · BENIN ]</text>
+  <rect x="28" y="250" width="200" height="20" fill="#7B61FF" opacity="0.2"/>
+  <text x="36" y="264" font-family="'Courier New', monospace" font-size="13" fill="#7B61FF">[ DEV · SEC · BENIN ]</text>
 </svg>
