@@ -1,62 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="wai-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0F0F1A"/>
       <stop offset="100%" stop-color="#1A1A2E"/>
     </linearGradient>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1E1E3A"/>
-      <stop offset="100%" stop-color="#16162A"/>
-    </linearGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <pattern id="wai-dots" width="28" height="28" patternUnits="userSpaceOnUse">
       <circle cx="1" cy="1" r="1" fill="#6366F1" opacity="0.10"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="280" fill="url(#bg)"/>
-  <rect width="1200" height="280" fill="url(#dots)"/>
+  <rect width="1200" height="280" fill="url(#wai-bg)"/>
+  <rect width="1200" height="280" fill="url(#wai-dots)"/>
 
   <!-- label -->
   <rect x="40" y="28" width="160" height="30" rx="8" fill="#6366F1" opacity="0.12"/>
   <rect x="40" y="28" width="160" height="30" rx="8" fill="none" stroke="#6366F1" stroke-width="1" opacity="0.4"/>
-  <text x="56" y="48" font-family="'DM Mono', 'Courier New', monospace" font-size="13" fill="#818CF8">$ whoami</text>
+  <text x="56" y="48" font-family="'DM Mono','Courier New',monospace" font-size="13" fill="#818CF8">$ whoami</text>
 
   <line x1="40" y1="72" x2="1160" y2="72" stroke="#1E293B" stroke-width="1"/>
 
   <!-- col 1: role -->
-  <text x="40"  y="102" font-family="'DM Mono', 'Courier New', monospace" font-size="11" fill="#475569">RÔLE</text>
-  <text x="40"  y="130" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">Développeur Web</text>
-  <text x="40"  y="158" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="18" fill="#6366F1">Full Stack</text>
+  <text x="40"  y="102" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">RÔLE</text>
+  <text x="40"  y="130" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">Développeur Web</text>
+  <text x="40"  y="158" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" fill="#6366F1">Full Stack</text>
 
   <!-- divider -->
   <line x1="310" y1="82" x2="310" y2="200" stroke="#1E293B" stroke-width="1"/>
 
   <!-- col 2: formation -->
-  <text x="336" y="102" font-family="'DM Mono', 'Courier New', monospace" font-size="11" fill="#475569">FORMATION</text>
-  <text x="336" y="130" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="18" fill="#F8FAFC">Étudiant en</text>
-  <text x="336" y="158" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="18" fill="#8B5CF6">Sécurité Informatique</text>
+  <text x="336" y="102" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">FORMATION</text>
+  <text x="336" y="130" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" fill="#F8FAFC">Étudiant en</text>
+  <text x="336" y="158" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" fill="#8B5CF6">Sécurité Informatique</text>
 
   <!-- divider -->
   <line x1="640" y1="82" x2="640" y2="200" stroke="#1E293B" stroke-width="1"/>
 
   <!-- col 3: focus -->
-  <text x="666" y="102" font-family="'DM Mono', 'Courier New', monospace" font-size="11" fill="#475569">FOCUS</text>
-  <text x="666" y="130" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="18" fill="#CBD5E1">Web · Scripting</text>
-  <text x="666" y="158" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="18" fill="#CBD5E1">Cyber · Open Source</text>
+  <text x="666" y="102" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">FOCUS</text>
+  <text x="666" y="130" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" fill="#CBD5E1">Web · Scripting</text>
+  <text x="666" y="158" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" fill="#CBD5E1">Cyber · Open Source</text>
 
   <!-- divider -->
   <line x1="960" y1="82" x2="960" y2="200" stroke="#1E293B" stroke-width="1"/>
 
   <!-- col 4: dispo -->
-  <text x="986" y="102" font-family="'DM Mono', 'Courier New', monospace" font-size="11" fill="#475569">STATUT</text>
+  <text x="986" y="102" font-family="'DM Mono','Courier New',monospace" font-size="11" fill="#475569">STATUT</text>
   <rect x="986" y="114" width="170" height="36" rx="8" fill="#10B981" opacity="0.12"/>
   <rect x="986" y="114" width="170" height="36" rx="8" fill="none" stroke="#10B981" stroke-width="1" opacity="0.5"/>
   <circle cx="1004" cy="132" r="5" fill="#10B981"/>
-  <text x="1018" y="137" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#10B981">DISPONIBLE</text>
+  <text x="1018" y="137" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="14" font-weight="600" fill="#10B981">DISPONIBLE</text>
 
   <line x1="40" y1="210" x2="1160" y2="210" stroke="#1E293B" stroke-width="1"/>
 
   <!-- about text -->
-  <text x="40" y="238" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="15" fill="#94A3B8">Étudiant en sécurité informatique et développeur web basé au Bénin. Passionné par l'innovation,</text>
-  <text x="40" y="261" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="15" fill="#94A3B8">les réseaux, la cybersécurité et les interfaces qui ont un impact concret.</text>
+  <text x="40" y="238" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="15" fill="#94A3B8">Étudiant en sécurité informatique et développeur web basé au Bénin. Passionné par l'innovation,</text>
+  <text x="40" y="261" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="15" fill="#94A3B8">les réseaux, la cybersécurité et les interfaces qui ont un impact concret.</text>
 </svg>

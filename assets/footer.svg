@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="80" viewBox="0 0 1200 80">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1">
+    <linearGradient id="ftr-bg" x1="0" x2="1">
       <stop offset="0%" stop-color="#0F0F1A"/>
       <stop offset="100%" stop-color="#1A1A2E"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" x2="1">
+    <linearGradient id="ftr-accent" x1="0" x2="1">
       <stop offset="0%" stop-color="#6366F1"/>
       <stop offset="50%" stop-color="#8B5CF6"/>
       <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="80" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
-  <rect x="0" y="77" width="1200" height="3" fill="url(#accent)"/>
-  <text x="600" y="36" font-family="'DM Mono', 'Courier New', monospace" font-size="15" font-weight="700" fill="#818CF8" text-anchor="middle">JAYE · JEPHTE AHIFFON · BÉNIN</text>
-  <text x="600" y="58" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="13" fill="#475569" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
+  <rect width="1200" height="80" fill="url(#ftr-bg)"/>
+  <rect x="0" y="0"  width="1200" height="3" fill="url(#ftr-accent)"/>
+  <rect x="0" y="77" width="1200" height="3" fill="url(#ftr-accent)"/>
+  <text x="600" y="36" font-family="'DM Mono','Courier New',monospace" font-size="15" font-weight="700" fill="#818CF8" text-anchor="middle">JAYE · JEPHTE AHIFFON · BÉNIN</text>
+  <text x="600" y="58" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="13" fill="#475569" text-anchor="middle">Merci d'être passé — n'hésite pas à laisser une étoile sur mes projets</text>
 </svg>
