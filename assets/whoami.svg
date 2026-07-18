@@ -1,125 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
   <defs>
-    <!-- Diagonal stripe pattern -->
     <pattern id="wai-stripes" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <path d="M 0,0 L 0,28" stroke="#EBEBF0" stroke-width="2" fill="none"/>
     </pattern>
-
-    <!-- Subtle drop-shadow filter for the card -->
     <filter id="wai-card-shadow" x="-2%" y="-4%" width="106%" height="116%">
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1A1A2E" flood-opacity="0.08"/>
     </filter>
   </defs>
 
-  <!-- ── Background ─────────────────────────────────────────────── -->
+  <!-- Background -->
   <rect id="wai-bg-fill"    width="1200" height="280" fill="#F0F0F5"/>
   <rect id="wai-bg-stripes" width="1200" height="280" fill="url(#wai-stripes)" opacity="1"/>
 
-  <!-- ── Card shadow (offset rect, very low opacity) ──────────────── -->
+  <!-- Card shadow -->
   <rect id="wai-card-shadow-rect" x="46" y="20" width="1112" height="248" rx="14" fill="#8071E8" opacity="0.06"/>
 
-  <!-- ── Card surface ───────────────────────────────────────────── -->
+  <!-- Card surface -->
   <rect id="wai-card" x="40" y="14" width="1120" height="252" rx="14" fill="#FFFFFF" filter="url(#wai-card-shadow)"/>
 
-  <!-- ── Pill badge: $ whoami ───────────────────────────────────── -->
+  <!-- Pill badge — Courier New (technique, monospace) -->
   <rect id="wai-badge-bg" x="56" y="30" width="118" height="28" rx="8" fill="#EDE9FF"/>
   <text id="wai-badge-text" x="71" y="49"
-        font-family="'Courier New', monospace"
+        font-family="'Courier New',monospace"
         font-size="13" font-weight="600"
         fill="#8071E8">$ whoami</text>
 
-  <!-- ── Separator line 1 ───────────────────────────────────────── -->
+  <!-- Separator top -->
   <line id="wai-sep-top" x1="56" y1="72" x2="1144" y2="72" stroke="#DCDCE8" stroke-width="1"/>
 
-  <!-- ══════════ COLUMN CONTENT ══════════════════════════════════ -->
+  <!-- ── Col 1 — RÔLE ──────────────────────────────────── -->
+  <!-- Label: Courier New spaced cap -->
+  <text id="wai-lbl-role" x="56" y="100"
+        font-family="'Courier New',monospace"
+        font-size="10" letter-spacing="2.5" fill="#9B99B8">RÔLE</text>
 
-  <!-- Col 1 — RÔLE (x=40 → card padding = 56) -->
-  <text id="wai-lbl-role"
-        x="56" y="100"
-        font-family="'Courier New', monospace"
-        font-size="11" letter-spacing="1.5"
-        fill="#6B6B8A">RÔLE</text>
-  <text id="wai-role-main"
-        x="56" y="130"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="22" font-weight="700"
-        fill="#1A1A2E">Développeur Web</text>
-  <text id="wai-role-sub"
-        x="56" y="156"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="18"
-        fill="#8071E8">Full Stack</text>
+  <!-- Value: Palatino Linotype — élégant, serif académique -->
+  <text id="wai-role-main" x="56" y="133"
+        font-family="'Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif"
+        font-size="24" font-weight="700" fill="#1A1A2E">Développeur Web</text>
+  <text id="wai-role-sub" x="56" y="160"
+        font-family="'Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif"
+        font-size="20" font-style="italic" fill="#8071E8">Full Stack</text>
 
-  <!-- Vertical divider 1 -->
+  <!-- Divider 1 -->
   <line id="wai-div-1" x1="310" y1="80" x2="310" y2="204" stroke="#DCDCE8" stroke-width="1"/>
 
-  <!-- Col 2 — FORMATION (x=336) -->
-  <text id="wai-lbl-formation"
-        x="336" y="100"
-        font-family="'Courier New', monospace"
-        font-size="11" letter-spacing="1.5"
-        fill="#6B6B8A">FORMATION</text>
-  <text id="wai-formation-main"
-        x="336" y="130"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="18"
-        fill="#1A1A2E">Étudiant en</text>
-  <text id="wai-formation-sub"
-        x="336" y="156"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="18"
-        fill="#B565C5">Sécurité Informatique</text>
+  <!-- ── Col 2 — FORMATION ─────────────────────────────── -->
+  <text id="wai-lbl-formation" x="336" y="100"
+        font-family="'Courier New',monospace"
+        font-size="10" letter-spacing="2.5" fill="#9B99B8">FORMATION</text>
 
-  <!-- Vertical divider 2 -->
+  <!-- Value: Trebuchet MS — humaniste, moderne -->
+  <text id="wai-formation-main" x="336" y="133"
+        font-family="'Trebuchet MS','Segoe UI',sans-serif"
+        font-size="19" fill="#1A1A2E">Étudiant en</text>
+  <text id="wai-formation-sub" x="336" y="159"
+        font-family="'Trebuchet MS','Segoe UI',sans-serif"
+        font-size="17" font-weight="700" fill="#B565C5">Sécurité Informatique</text>
+
+  <!-- Divider 2 -->
   <line id="wai-div-2" x1="640" y1="80" x2="640" y2="204" stroke="#DCDCE8" stroke-width="1"/>
 
-  <!-- Col 3 — FOCUS (x=666) -->
-  <text id="wai-lbl-focus"
-        x="666" y="100"
-        font-family="'Courier New', monospace"
-        font-size="11" letter-spacing="1.5"
-        fill="#6B6B8A">FOCUS</text>
-  <text id="wai-focus-1"
-        x="666" y="130"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="18"
-        fill="#4A4A6A">Web · Scripting</text>
-  <text id="wai-focus-2"
-        x="666" y="156"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="18"
-        fill="#4A4A6A">Cyber · Open Source</text>
+  <!-- ── Col 3 — FOCUS ─────────────────────────────────── -->
+  <text id="wai-lbl-focus" x="666" y="100"
+        font-family="'Courier New',monospace"
+        font-size="10" letter-spacing="2.5" fill="#9B99B8">FOCUS</text>
 
-  <!-- Vertical divider 3 -->
+  <!-- Value: Georgia serif classique -->
+  <text id="wai-focus-1" x="666" y="133"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="18" fill="#4A4A6A">Web · Scripting</text>
+  <text id="wai-focus-2" x="666" y="159"
+        font-family="Georgia,'Times New Roman',serif"
+        font-size="18" fill="#4A4A6A">Cyber · Open Source</text>
+
+  <!-- Divider 3 -->
   <line id="wai-div-3" x1="960" y1="80" x2="960" y2="204" stroke="#DCDCE8" stroke-width="1"/>
 
-  <!-- Col 4 — STATUT (x=986) -->
-  <text id="wai-lbl-statut"
-        x="986" y="100"
-        font-family="'Courier New', monospace"
-        font-size="11" letter-spacing="1.5"
-        fill="#6B6B8A">STATUT</text>
+  <!-- ── Col 4 — STATUT ────────────────────────────────── -->
+  <text id="wai-lbl-statut" x="986" y="100"
+        font-family="'Courier New',monospace"
+        font-size="10" letter-spacing="2.5" fill="#9B99B8">STATUT</text>
+
   <!-- Status pill -->
   <rect id="wai-status-bg"  x="986" y="112" width="156" height="34" rx="8" fill="#E8F5F0"/>
   <rect id="wai-status-bdr" x="986" y="112" width="156" height="34" rx="8" fill="none" stroke="#34C48A" stroke-width="1"/>
-  <text id="wai-status-text"
-        x="1001" y="135"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="14" font-weight="600"
+  <!-- Value: Impact pour le badge statut — frappant -->
+  <text id="wai-status-text" x="1001" y="135"
+        font-family="'Trebuchet MS','Segoe UI',sans-serif"
+        font-size="13" font-weight="700" letter-spacing="1"
         fill="#1A9E6E">● DISPONIBLE</text>
 
-  <!-- ── Separator line 2 ───────────────────────────────────────── -->
+  <!-- Separator bottom -->
   <line id="wai-sep-bot" x1="56" y1="210" x2="1144" y2="210" stroke="#DCDCE8" stroke-width="1"/>
 
-  <!-- ── Bio text ────────────────────────────────────────────────── -->
-  <text id="wai-bio-1"
-        x="56" y="234"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="15"
-        fill="#6B6B8A">Étudiant en sécurité informatique et développeur web basé au Bénin. Passionné par l'innovation,</text>
-  <text id="wai-bio-2"
-        x="56" y="254"
-        font-family="'Segoe UI', Arial, sans-serif"
-        font-size="15"
-        fill="#6B6B8A">les réseaux, la cybersécurité et les interfaces qui ont un impact concret.</text>
+  <!-- Bio text — Palatino italic, doux et lisible -->
+  <text id="wai-bio-1" x="56" y="234"
+        font-family="'Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif"
+        font-size="15" font-style="italic" fill="#6B6B8A">Étudiant en sécurité informatique et développeur web basé au Bénin. Passionné par l'innovation,</text>
+  <text id="wai-bio-2" x="56" y="254"
+        font-family="'Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif"
+        font-size="15" font-style="italic" fill="#6B6B8A">les réseaux, la cybersécurité et les interfaces qui ont un impact concret.</text>
 </svg>
